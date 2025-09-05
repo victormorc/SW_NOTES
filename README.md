@@ -6,9 +6,9 @@ This repository gathers information regarding several SW design, principles and 
 
 As stated previously, in any good design, in almost all cases, the following features can be found in it:
 
-• **Simplicity:**
-• **ETC:**
-• **Understandable:**
+- **Simplicity:**
+- **ETC:**
+- **Understandable:**
 
 ## SOLID (OOT - OBJECT ORIENTED TECHNIQUES)
 
