@@ -29,3 +29,5 @@ In any case, a good design forces us to balance all the above features. As said 
 ## MODULARITY
 
 ## SHY CODE
+
+## REFACTORING
