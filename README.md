@@ -7,16 +7,17 @@ Some ideas are compiled from distinguished authors as Donald Knuth, Niklaus Wirt
 
 In almost all good designs the following features can be identified in them:
 
->- **Simplicity:** Possibly the hardest thing to achieve in any SW project. It requires a lot of practice and thinking (usually it is not the first idea). Simplicity is avoiding overengineering (less is more). In return it favors changes in the future. It may not sound fancy, but a simple design always pays off.
+> - **Simplicity:** Possibly the hardest thing to achieve in any SW project. It requires a lot of practice and thinking (usually it is not the first idea). Simplicity is avoiding overengineering (less is more). In return it favors changes in the future. It may not sound fancy, but a simple design always pays off.
 >
->  Simple is often erroneously mistaken for easy. "Easy" means "to be at hand", "to be approachable". "Simple" is the opposite of "complex" which means "being intertwined", "being tied together". Simple != easy.
+>   [Simple is often erroneously mistaken for easy](https://www.infoq.com/presentations/Simple-Made-Easy/). "Easy" means "to be at hand", "to be approachable". "Simple" is the opposite of "complex" which means "being intertwined", "being tied together". Simple != easy.
+>
 >- **Clarity:** The following quote is from Donald Knuth "When you write a program, think of it primarily as a work of literature.
 >
->  You're trying to write something that human beings are going to read.
+>   You're trying to write something that human beings are going to read.
 >
->  Don't think of it primarily as something a computer is going to follow.
+>   Don't think of it primarily as something a computer is going to follow.
 >
->  The more effective you are at making your program readable, the more effective it's going to be: You'll understand it today, you'll understand it next week, and your successors who are going to maintain and modify it will understand it."
+>   The more effective you are at making your program readable, the more effective it's going to be: You'll understand it today, you'll understand it next week, and your successors who are going to maintain and modify it will understand it."
 >    - **Consistency/Uniformity:** Using the same style helps to favor collaboration. Define processes and standards, thus everybody is aligned and any new member can contribute earlier.
 
 In any case, a good design forces us to balance the features, not always is possible or desirable. As said previously, depending on the requirements and the context we should be flexible and take into account the trade-offs.
