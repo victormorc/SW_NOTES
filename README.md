@@ -3,9 +3,11 @@ This repository gathers information regarding several SW design, principles and 
 Some ideas are compiled from distinguished authors as Donald Knuth, Niklaus Wirth, Kent Beck, Robert C Martin, David Thomas, Andrew Hunt... And some others are my humble opinion
 
 ## SW AS A TOOL
-Software is just another tool used by engineers to solve problems. A software program, ideally, is created to solve one problem. It should produce outputs manipulating some inputs.
+Software is just another tool used by engineers to solve problems. A software program, ideally, is created to solve one problem. Therefore, do not create more problems in order to solve one.
 
-However, as any other tool if not used properly the outcome won't be the expected. Always bear in mind what for the program was developed or what you want to achieved when writing it.
+As any tool, if it is not used properly the outcome won't be the expected. Always bear in mind what for the program was developed or what you want to achieved when writing it.
+
+Several SW programs (tools) can be used to address a problem, although some fit better than others.
 
 ## GOOD DESIGN
 ***A good design could be achieved as a combination of applying several ideas/principles. It always depends on the context, not always the same approach can be used.*** 
@@ -25,7 +27,8 @@ In almost all good designs the following features can be identified in them:
 >   The more effective you are at making your program readable, the more effective it's going to be: You'll understand it today, you'll understand it next week, and your successors who are going to maintain and modify it will understand it."
 >    - **Consistency/Uniformity:** Using the same style helps to favor collaboration. Define processes and standards, thus everybody is aligned and any new member can contribute earlier.
 >- **Modularity:** A SW program should be composed of different blocks which are combined (think of it as Lego blocks).
->   Data, structures and procedures are group according to their affinity and purpose. They are almost isolated from each others. Thus, providing a mechanism to test and change them easyly.
+>
+>   Data, structures and procedures are grouped according to their affinity and purpose. They are almost isolated from each others. Thus, providing a mechanism to test and change them easyly.
 
 In any case, a good design forces us to balance the features, not always is possible or desirable. As said previously, depending on the requirements and the context we should be flexible and take into account the trade-offs.
 
@@ -44,6 +47,10 @@ In any case, a good design forces us to balance the features, not always is poss
 
 ## ORTHOGONALITY
 
+## GENERALIZATION
+
+## INTERFACES
+
 ## SHY CODE
 Shy code doesn’t reveal too much of itself to anyone else and doesn’t talk to others any more than is necessary. Shy code keeps to itself. Command-query separation keeps code shy; the caller doesn’t know too much about how its command will be performed.
 
@@ -51,4 +58,12 @@ Shy code doesn’t reveal too much of itself to anyone else and doesn’t talk t
 Refactoring is the natural order of nature in SW. It is essential, as programs grow and requirements change. Also, the fact that with time we gain more knowledge about the system should force us to improve it.
 Refactoring is simply rephrasing your code/design to make it better.
 It is a daily effort.
+
+## BOOKS OF REFERENCE
+| Title | Author(s) |
+| :---: |    :---:  |
+| The Pragmatic Programmer: Your Journey to Mastery, 20th Anniversary Edition | Andy Hunt, Dave Thomas |
+| Clean Architecture: A Craftsman's Guide to Software Structure and Design | Robert C. Martin |
+| Structure and Interpretation of Computer Programs | Gerald Sussman, Hal Abelson |
+| A Philosophy of Software Design | John Ousterhout |
 
