@@ -34,6 +34,21 @@ In any case, a good design forces us to balance the features, not always is poss
 
 **When designing there are no  rules, only guidelines. Think twice before doing anything.**
 
+### DIVIDE AND CONQUER
+One commonn problem when tackling design is where to begin and the inability to see the whole picture.
+
+It is always a good advice to see the problem as a puzzle. Decompose the problem into smaller pieces, therefore, you would have an easy way to start and a better understanding of the problem itself.
+
+## MODULAR DESIGN
+
+### ORTHOGONALITY
+
+### GENERALIZATION
+
+### INTERFACES
+
+
+
 ## SOLID (OOT - OBJECT ORIENTED TECHNIQUES)
 
 ### S - SRP (SINGLE RESPONSABILITY PRINCIPLE)
@@ -44,12 +59,6 @@ In any case, a good design forces us to balance the features, not always is poss
 ### D - DIP (DEPENDENCY INVERSION PRINCIPLE)
 
 ## DRY PRINCIPLE
-
-## ORTHOGONALITY
-
-## GENERALIZATION
-
-## INTERFACES
 
 ## SHY CODE
 Shy code doesn’t reveal too much of itself to anyone else and doesn’t talk to others any more than is necessary. Shy code keeps to itself. Command-query separation keeps code shy; the caller doesn’t know too much about how its command will be performed.
