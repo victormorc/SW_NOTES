@@ -52,7 +52,6 @@ It is always a good advice to see the problem as a puzzle. Decompose the problem
 ## SOLID (OOT - OBJECT ORIENTED TECHNIQUES)
 
 ### S - SRP (SINGLE RESPONSABILITY PRINCIPLE)
-##### SLAP - SINGLE LAYER ABSTRACTION PRINCIPLE
 ### O - OCP (OPEN CLOSE PRINCIPLE)
 ### L - LSP (LISKOV SUBSTITUTION PRINCIPLE)
 ### I - ISP (INTERFACE SEGREGATION PRINCIPLE)
@@ -64,9 +63,23 @@ It is always a good advice to see the problem as a puzzle. Decompose the problem
 Shy code doesn’t reveal too much of itself to anyone else and doesn’t talk to others any more than is necessary. Shy code keeps to itself. Command-query separation keeps code shy; the caller doesn’t know too much about how its command will be performed.
 
 ## REFACTORING
+Most of the time it is spent reading code, from others or ours.
+
 Refactoring is the natural order of nature in SW. It is essential, as programs grow and requirements change. Also, the fact that with time we gain more knowledge about the system should force us to improve it.
 Refactoring is simply rephrasing your code/design to make it better.
 It is a daily effort.
+
+## FUNCTIONS
+One of the basics elements in almost all programming languages. Thus, mastering creation of function is a requirement for any programmer.
+
+Here are some keynotes:
+- Functions must do one thing and only one thing. And must do it right! -> I usually consider the SRP principle of functions.
+
+- Functions should keep always the same level of abstraction. This is the principle known as SLAP (SINGLE LAYER ABSTRACTION PRINCIPLE). In here, the idea is that the code is easier to read if are related and at the same level.
+
+- Functions shouldn't be large. How many lines you may wonder, depends as always.
+
+- Use a verb always to describe the, a descriptive one. Try to be as precise as possible.
 
 ## BOOKS OF REFERENCE
 | Title | Author(s) |
