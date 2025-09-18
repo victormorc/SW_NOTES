@@ -74,10 +74,29 @@ One of the basics elements in almost all programming languages. Thus, mastering 
 
 Here are some keynotes:
 - Functions must do one thing and only one thing. And must do it right! -> I usually consider the SRP principle of functions.
+```
+/*
+ * THIS FUNCTION COMPLIES WITH SRP.
+ */
+int generateId(void)
+{
+    return generator->random();
+}
 
-- Functions should keep always the same level of abstraction. This is the principle known as SLAP (SINGLE LAYER ABSTRACTION PRINCIPLE). In here, the idea is that the code is easier to read if are related and at the same level.
+/*
+ * THIS FUNCTION DOES NOT COMPLY WITH SRP.
+ * IT DOES NOT JUST GENERATE THE ID, IT ALSO ASSIGNS IT TO A USER.
+ */
+void generateId(UserType user)
+{
+    user.id = generator->random();
+}
+```
+- Functions should keep always the same level of abstraction. This is the principle known as SLAP (SINGLE LAYER ABSTRACTION PRINCIPLE). In here, the idea is that the code is easier to read if the "instructions" are related and at the same level.
 
-- Functions shouldn't be large. How many lines you may wonder, depends as always.
+- Functions shouldn't be large. How many lines you may wonder, depends as always (there is no rule of thumb).
+
+- In any function the number of parameters should be limited at four (readibility). Group data if necessary.
 
 - Use a verb always to describe the, a descriptive one. Try to be as precise as possible.
 
