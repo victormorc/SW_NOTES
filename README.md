@@ -2,6 +2,13 @@
 This repository gathers information regarding several SW design, principles and patterns.
 Some ideas are compiled from distinguished authors as Donald Knuth, Niklaus Wirth, Kent Beck, Robert C Martin, David Thomas, Andrew Hunt... And some others are my humble opinion
 
+## THINK TWICE BEFORE DOING ANYTHING
+This is a premise for any engineer. It is the golden rule.
+
+Before diving into code or desing, take time to consider several approaches to tackle the issue.
+
+## LESS IS MORE
+
 ## SW AS A TOOL
 Software is just another tool used by engineers to solve problems. A software program, ideally, is created to solve one problem. Therefore, do not create more problems in order to solve one.
 
@@ -48,26 +55,21 @@ It is always a good advice to see the problem as a puzzle. Decompose the problem
 ### INTERFACES
 
 
-
-## SOLID (OOT - OBJECT ORIENTED TECHNIQUES)
-
-### S - SRP (SINGLE RESPONSABILITY PRINCIPLE)
-### O - OCP (OPEN CLOSE PRINCIPLE)
-### L - LSP (LISKOV SUBSTITUTION PRINCIPLE)
-### I - ISP (INTERFACE SEGREGATION PRINCIPLE)
-### D - DIP (DEPENDENCY INVERSION PRINCIPLE)
-
 ## DRY PRINCIPLE
 
 ## SHY CODE
 Shy code doesn’t reveal too much of itself to anyone else and doesn’t talk to others any more than is necessary. Shy code keeps to itself. Command-query separation keeps code shy; the caller doesn’t know too much about how its command will be performed.
 
 ## REFACTORING
-Most of the time it is spent reading code, from others or ours.
+Most of the time it is spent reading code, from others, or even ours.
 
 Refactoring is the natural order of nature in SW. It is essential, as programs grow and requirements change. Also, the fact that with time we gain more knowledge about the system should force us to improve it.
 Refactoring is simply rephrasing your code/design to make it better.
 It is a daily effort.
+
+## OPTIMIZATION
+Only in a few ocassions you should seek for optimization in your program.
+Most of the time it is not necessary and any attempt to improve the performance will result in a nightmare. Because, your code will be difficult to maintain, harder to follow, less simple, and/or you will spend time trying to identify the point were a possible optimization could happen.
 
 ## FUNCTIONS
 One of the basics elements in almost all programming languages. Thus, mastering creation of function is a requirement for any programmer.
