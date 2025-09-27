@@ -37,7 +37,7 @@ In almost all good designs the following features can be identified in them:
 >- **Modularity:** A SW program should be composed of different blocks which are combined (think of it as Lego blocks).
 >
 >   Data, structures and procedures are grouped according to their affinity and purpose. They are almost isolated from each others. Thus, providing a mechanism to test and change them easyly.
->- **Flexibility:** SW should be easy to adapt for modifications and/or new features. This is what *The pragmatic programmer* (#books-of-reference) describes as the **ETC** principle.
+>- **Flexibility:** SW should be easy to adapt for modifications and/or new features. This is what *The pragmatic programmer* describes as the **ETC** principle.
 
 In any case, a good design forces us to balance the features, not always is possible or desirable. As said previously, depending on the requirements and the context we should be flexible and take into account the trade-offs.
 
