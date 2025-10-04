@@ -10,6 +10,9 @@ Before diving into code or desing, take time to consider several approaches to t
 ## LESS IS MORE
 
 
+## KEEP TRACK OF THE HISTORY
+
+
 ## SW AS A TOOL
 Software is just another tool used by engineers to solve problems. A software program, ideally, is created to solve one problem. Therefore, do not create more problems in order to solve one.
 
@@ -103,6 +106,9 @@ void generateId(UserType user)
 - In any function the number of parameters should be limited at four (readibility). Group data if necessary.
 
 - Use a verb always to describe the, a descriptive one. Try to be as precise as possible.
+
+
+## VARIABLES
 
 ## BOOKS OF REFERENCE
 | Title | Author(s) |
