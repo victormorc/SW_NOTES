@@ -5,9 +5,14 @@ Some ideas are compiled from distinguished authors as Donald Knuth, Niklaus Wirt
 ## THINK TWICE BEFORE DOING ANYTHING
 This is a premise for any engineer. It is the golden rule.
 
-Before diving into code or desing, take time to consider several approaches to tackle the issue.
+Before diving into code or desing, take time to consider several approaches to tackle the issue. Investing time into analyze carefully all the aspects of the project will safe you time in the long term. 
 
 ## LESS IS MORE
+It is usually that junior engineers and even some senior engineers eagerly jump in to a project directly without a proper analysis of the current state. Unfortunately, leading to overengineering.
+
+We tend to overlook some key nuances in the project. Thus, make our job harder. We should try to be as lazy as possible, in the sense of solving problem working the minimum required.
+
+Great engineers
 
 
 ## KEEP TRACK OF THE HISTORY
