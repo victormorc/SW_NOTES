@@ -14,6 +14,9 @@ Before diving into code or desing, take time to consider several approaches to t
 Consider always the context. Althought the projects' goals could be the same compared to others if the surrounding context is different the approach should be different too.
 Maybe your project needs to comply with some regulations or follow some processes imposed by your company (these are more requirements), so the context changes and what could work in another environment maybe does nor fit in yours.
 
+### KEEP ASKING
+Whenever you do not understand something ask, whenever something is not ckear ask again. Keep making questions to get the whole system right. 
+
 ## LESS IS MORE
 It is usually that junior engineers and even some senior engineers eagerly jump into a project directly without a proper analysis of the current state. Unfortunately, leading to overengineering.
 
