@@ -1,19 +1,29 @@
 # SW_NOTES
 This repository gathers information regarding several SW design, principles and patterns.
-Some ideas are compiled from distinguished authors as Donald Knuth, Niklaus Wirth, Kent Beck, Robert C Martin, David Thomas, Andrew Hunt... And some others are my humble opinion
+Some ideas are compiled from distinguished authors as Donald Knuth, Niklaus Wirth, Kent Beck, Martin Fowler, Robert C Martin, David Thomas, Andrew Hunt... And some others are my humble opinion.
+
+I would start quoting Martin Fowler: “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” 
+
 
 ## THINK TWICE BEFORE DOING ANYTHING
 This is a premise for any engineer. It is the golden rule.
 
-Before diving into code or desing, take time to consider several approaches to tackle the issue. Investing time into analyze carefully all the aspects of the project will safe you time in the long term. 
+Before diving into code or desing, take time to consider several approaches to tackle the issue. Investing time into analyze carefully all the aspects of the project will safe you time in the long term.
+
+### CONTEXT
+Consider always the context. Althought the projects' goals could be the same compared to others if the surrounding context is different the approach should be different too.
+Maybe your project needs to comply with some regulations or follow some processes imposed by your company (these are more requirements), so the context changes and what could work in another environment maybe does nor fit in yours.
 
 ## LESS IS MORE
 It is usually that junior engineers and even some senior engineers eagerly jump in to a project directly without a proper analysis of the current state. Unfortunately, leading to overengineering.
 
 We tend to overlook some key nuances in the project. Thus, make our job harder. We should try to be as lazy as possible, in the sense of solving problem working the minimum required.
 
-Great engineers
+Great engineers identify which features are not necessary, when to use third libraries, when to persuade stakeholders to change requirements or even to forward work to another team/department.
 
+For instance, imaging the scenario where you have developed previously one application/tool which process an xml file with some data and plot them to the user. In a new project you have a requirement which produce some data similar to the previous case, however the output file is in json format. Your mission should be trying to convince the system team into use the xml format and the available tool to display the data. It is not possible in all cases, nonetheless you should make an effort to change it.
+
+### USE STANDARD/FORMAT
 
 ## KEEP TRACK OF THE HISTORY
 
