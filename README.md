@@ -15,15 +15,21 @@ Consider always the context. Althought the projects' goals could be the same com
 Maybe your project needs to comply with some regulations or follow some processes imposed by your company (these are more requirements), so the context changes and what could work in another environment maybe does nor fit in yours.
 
 ## LESS IS MORE
-It is usually that junior engineers and even some senior engineers eagerly jump in to a project directly without a proper analysis of the current state. Unfortunately, leading to overengineering.
+It is usually that junior engineers and even some senior engineers eagerly jump into a project directly without a proper analysis of the current state. Unfortunately, leading to overengineering.
 
 We tend to overlook some key nuances in the project. Thus, make our job harder. We should try to be as lazy as possible, in the sense of solving problem working the minimum required.
 
 Great engineers identify which features are not necessary, when to use third libraries, when to persuade stakeholders to change requirements or even to forward work to another team/department.
 
-For instance, imaging the scenario where you have developed previously one application/tool which process an xml file with some data and plot them to the user. In a new project you have a requirement which produce some data similar to the previous case, however the output file is in json format. Your mission should be trying to convince the system team into use the xml format and the available tool to display the data. It is not possible in all cases, nonetheless you should make an effort to change it.
+For instance, image the scenario where you have developed previously one application/tool which process an xml file with some data and plot them to the user. In a new project you have a requirement which produce some data similar to the previous case, however the output file is in json format. Your mission should be trying to convince the system team into use the xml format and the available tool to display the data. It is not possible in all cases, nonetheless you should make an effort to change it.
 
 ### USE STANDARD/FORMAT
+**Do not reinvent the wheel.**
+
+Try to keep a common/shared idiom. This means the use of patterns when coding/desiging, the use of the same protocol/standard when sharing data and file formats to store data (csv, json, yaml, xml,...).
+
+In addition, there are plenty number of tools, libraries already developed and informatiom (a lot of webs with example and support). Thus, saving you time to focus in more demanding things.
+
 
 ## KEEP TRACK OF THE HISTORY
 
