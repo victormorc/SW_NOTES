@@ -15,7 +15,7 @@ Consider always the context. Althought the projects' goals could be the same com
 Maybe your project needs to comply with some regulations or follow some processes imposed by your company (these are more requirements), so the context changes and what could work in another environment maybe does nor fit in yours.
 
 ### KEEP ASKING
-Whenever you do not understand something ask, whenever something is not ckear ask again. Keep making questions to get the whole system right. 
+Whenever you do not understand something ask, whenever something is not ckear ask again. Keep making questions to get the whole system right.
 
 ## LESS IS MORE
 It is usually that junior engineers and even some senior engineers eagerly jump into a project directly without a proper analysis of the current state. Unfortunately, leading to overengineering.
@@ -35,6 +35,12 @@ In addition, there are plenty number of tools, libraries already developed and i
 
 
 ## KEEP TRACK OF THE HISTORY
+At any moment in the development of the project you should have recorded all the choices made (why, what, how and trade-offs). Any relevant discussion about processes, architecture, design, integration should be recorded, too.
+
+### GIVE AWAY YOUR KNOWLEDGE
+Avoid hoarding knowledge in a project, even if it is unitentionally. Take time to make you dispensable.
+
+Spread your knowledge by creating documentation or even having dedicated sessions with your colleagues. This will impact positively in the project and should align you.
 
 
 ## SW AS A TOOL
