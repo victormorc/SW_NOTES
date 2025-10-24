@@ -42,6 +42,11 @@ Avoid hoarding knowledge in a project, even if it is unitentionally. Take time t
 
 Spread your knowledge by creating documentation or even having dedicated sessions with your colleagues. This will impact positively in the project and should align you.
 
+## TINY STEPS
+Working in tiny steps may sound too overhead, however it gives you a better control of changes and easy testing, debugging, tuning code, ...
+
+Furthermore, tiny steps give you an estimation of what output you should get as in design and code.
+
 
 ## SW AS A TOOL
 Software is just another tool used by engineers to solve problems. A software program, ideally, is created to solve one problem. Therefore, do not create more problems in order to solve one.
