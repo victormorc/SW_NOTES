@@ -10,6 +10,8 @@ This is a premise for any engineer. It is the golden rule.
 
 Before diving into code or desing, take time to consider several approaches to tackle the issue. Investing time into analyze carefully all the aspects of the project will safe you time in the long term.
 
+**Use paper, old fashion but realiable, to sketch some diagrams, data flows, modules, ... Make a mental model (visualize) what you want to create.**
+
 ### CONTEXT
 Consider always the context. Althought the projects' goals could be the same compared to others if the surrounding context is different the approach should be different too.
 Maybe your project needs to comply with some regulations or follow some processes imposed by your company (these are more requirements), so the context changes and what could work in another environment maybe does nor fit in yours.
