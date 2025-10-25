@@ -16,8 +16,23 @@ Before diving into code or desing, take time to consider several approaches to t
 Consider always the context. Althought the projects' goals could be the same compared to others if the surrounding context is different the approach should be different too.
 Maybe your project needs to comply with some regulations or follow some processes imposed by your company (these are more requirements), so the context changes and what could work in another environment maybe does nor fit in yours.
 
+## BE CLEAR
+SW is a human activity, at least until now, altought this seems to shift... As humans are involded misunderstanding are going to happen, it is a fact. It is not easy to mitigate it. **The only way is to be as clear as possible. Be clear communicating requirements, processes, activities, tasks, ...**
+
+Documents are a good way to communicate.
+
+### GIVE AWAY YOUR KNOWLEDGE
+Avoid hoarding knowledge in a project, even if it is unitentionally. Take time to make you dispensable.
+
+Spread your knowledge by creating documentation or even having dedicated sessions with your colleagues. This will impact positively in the project and should align you.
+
+### THERE IS NO TRIVIAL INFORMATION
+Sometimes we consider something to be trivial, but for other people that piece of infoemation could be an epiphany. To make this possible you have to record everything.
+
+For instance, you expect some enviromental or set-up files to be located in some specific folder or to build the application to execute some command with several options, all of these are crucial information, but in your case is something that you are used to.
+
 ### KEEP ASKING
-Whenever you do not understand something ask, whenever something is not ckear ask again. Keep making questions to get the whole system right.
+Whenever you do not understand something ask, whenever something is not clear ask again. Keep making questions to get the whole system right.
 
 ## LESS IS MORE
 It is usually that junior engineers and even some senior engineers eagerly jump into a project directly without a proper analysis of the current state. Unfortunately, leading to overengineering.
@@ -39,10 +54,6 @@ In addition, there are plenty number of tools, libraries already developed and i
 ## KEEP TRACK OF THE HISTORY
 At any moment in the development of the project you should have recorded all the choices made (why, what, how and trade-offs). Any relevant discussion about processes, architecture, design, integration should be recorded, too.
 
-### GIVE AWAY YOUR KNOWLEDGE
-Avoid hoarding knowledge in a project, even if it is unitentionally. Take time to make you dispensable.
-
-Spread your knowledge by creating documentation or even having dedicated sessions with your colleagues. This will impact positively in the project and should align you.
 
 ## TINY STEPS
 Working in tiny steps may sound too overhead, however it gives you a better control of changes and easy testing, debugging, tuning code, ...
