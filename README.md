@@ -61,6 +61,7 @@ At any moment in the development of the project you should have recorded all the
 
 ## TINY STEPS
 Working in tiny steps may sound too overhead, however it gives you a better control of changes and easy testing, debugging, tuning code, ...
+As each step will bring small changes (additions or deletions) the complexity associated will be reduced if you did it correctly. 
 
 Furthermore, tiny steps give you an estimation of what output you should get as in design and code.
 
@@ -109,6 +110,8 @@ In any case, a good design forces us to balance the features, not always is poss
 One commonn problem when tackling design is where to begin and the inability to see the whole picture.
 
 It is always a good advice to see the problem as a puzzle. Decompose the problem into smaller pieces, therefore, you would have an easy way to start and a better understanding of the problem itself.
+
+Each piece isolated is easier to be handled than the whole system. It is also a good idea to simplify the design.
 
 ## MODULAR DESIGN
 
@@ -176,4 +179,5 @@ void generateId(UserType user)
 | Clean Architecture: A Craftsman's Guide to Software Structure and Design | Robert C. Martin |
 | Structure and Interpretation of Computer Programs | Gerald Sussman, Hal Abelson |
 | A Philosophy of Software Design | John Ousterhout |
+| Code Simplicity: The Fundamentals of Software | Max Kanat-Alexander |
 
