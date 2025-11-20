@@ -34,6 +34,10 @@ For instance, you expect some enviromental or set-up files to be located in some
 ### KEEP ASKING
 Whenever you do not understand something ask, whenever something is not clear ask again. Keep making questions to get the whole system right.
 
+If you do not get something right, you would add complexity to the project. This complexity will be in form of a bad design or rigid design and/or in code you could add bugs or the wrong behavior.
+
+Anyhow, it is always a good practice to make questions. It will give you a deeper knowledge and keep you sharp. Even, in some cases, your questions will lead to changes as people identify some holes in the current knowledge or the project evolves. 
+
 ## LESS IS MORE
 It is usually that junior engineers and even some senior engineers eagerly jump into a project directly without a proper analysis of the current state. Unfortunately, leading to overengineering.
 
@@ -44,7 +48,7 @@ Great engineers identify which features are not necessary, when to use third lib
 For instance, image the scenario where you have developed previously one application/tool which process an xml file with some data and plot them to the user. In a new project you have a requirement which produce some data similar to the previous case, however the output file is in json format. Your mission should be trying to convince the system team into use the xml format and the available tool to display the data. It is not possible in all cases, nonetheless you should make an effort to change it.
 
 ### USE STANDARD/FORMAT
-**Do not reinvent the wheel.**
+**Do not reinvent the wheel, unless you have a good reason for that.**
 
 Try to keep a common/shared idiom. This means the use of patterns when coding/desiging, the use of the same protocol/standard when sharing data and file formats to store data (csv, json, yaml, xml,...).
 
@@ -67,6 +71,13 @@ Software is just another tool used by engineers to solve problems. A software pr
 As any tool, if it is not used properly the outcome won't be the expected. Always bear in mind what for the program was developed or what you want to achieved when writing it.
 
 Several SW programs (tools) can be used to address a problem, although some fit better than others.
+
+### PROGRAMMING LANGUAGE
+Any programming language is a tool to solve a problem. Each programming language has advantages and disadvantages, the creators designed the language with the intention to fulfil some features, ideas.
+
+Therefore, any language it is more suitable for some problems. You should not disregard some language just because you are not used to it or you do not like the syntax or the style. Each language has advantages and disadvantages, just try to find the good spot to use them.
+
+Never, ever be a zealot of a programming language. Recognize that each language can be used in some context and give it the proper credit (there were people working on it).
 
 ## GOOD DESIGN
 ***A good design could be achieved as a combination of applying several ideas/principles. It always depends on the context, not always the same approach can be used.*** 
