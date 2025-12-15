@@ -121,6 +121,8 @@ Each piece isolated is easier to be handled than the whole system. It is also a 
 
 ### INTERFACES
 
+### ENCAPSULATION
+
 
 ## DRY PRINCIPLE
 
